@@ -7,8 +7,9 @@
 	<packaging>pom</packaging>
 
 	<modules>
+		<module>../ying-core</module>
 		<module>../ying-utils</module>
-		<module>../ying-control</module>
+		<module>../ying-controller</module>
 		<module>../ying-service</module>
 		<module>../ying-dao</module>
 		<module>../ying-entity</module>
@@ -37,7 +38,37 @@
 			<!-- 此工程的模型 -->
 			<dependency>
 				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
 				<artifactId>ying-utils</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-controller</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-dao</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-entity</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-log</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 

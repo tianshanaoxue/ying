@@ -18,6 +18,10 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 		<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>ying-core</artifactId>
+			</dependency>
+		<dependency>
 			<groupId>servletapi</groupId>
 			<artifactId>servletapi</artifactId>
 			<version>2.4</version>
